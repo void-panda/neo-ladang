@@ -22,7 +22,10 @@
     <!-- Navbar -->
     <nav class="navbar sticky-top navbar-expand-lg bg-success navbar-dark">
         <div class="container">
-            <a class="navbar-brand text-white" href="#" style="font-family: 'DynaPuff';">Neo <span
+            <div class="bg-light me-2 rounded-pill flex justify-content-center" style="padding-left: 2px;">
+                <img src="img/logo.png" alt="Logo" height="40" width="40">
+            </div>
+            <a class="navbar-brand text-white" href="index.html" style="font-family: 'DynaPuff';">Neo <span
                     class="text-warning">Ladang</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -32,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Beranda</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -40,30 +43,26 @@
                             Artikel
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Isu</a></li>
-                            <li><a class="dropdown-item" href="#">Cara pencegahan</a></li>
-                            <li><a class="dropdown-item" href="#">Strategi</a></li>
-                            <li>
-                                <hr class="dropdown-divider" />
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Info lainnya</a>
-                            </li>
+                            <li><a class="dropdown-item" href="isu.html">Isu Agrikultur</a></li>
+                            <li><a class="dropdown-item" href="event.html">Event</a></li>
+                            <li><a class="dropdown-item" href="strategi.html">Strategi</a></li>
                         </ul>
                     </li>
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="produk.html">Produk</a>
+                    <a class="nav-link" href="index.html#about">Tentang</a>
                     </li>
                 </ul>
 
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Cari" />
                     <button class="btn btn-warning" type="submit">
-                        Search
+                        Cari
                     </button>
                 </form>
             </div>
         </div>
     </nav>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
