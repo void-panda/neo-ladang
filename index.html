@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -20,7 +20,7 @@
     <!-- Navbar -->
     <nav class="navbar sticky-top navbar-expand-lg bg-success navbar-dark">
         <div class="container">
-            <a class="navbar-brand text-white" href="#" style="font-family: 'DynaPuff';">Neo <span
+            <a class="navbar-brand text-white" href="index.html" style="font-family: 'DynaPuff';">Neo <span
                     class="text-warning">Ladang</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -38,18 +38,12 @@
                             Artikel
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Isu</a></li>
-                            <li><a class="dropdown-item" href="#">Cara pencegahan</a></li>
-                            <li><a class="dropdown-item" href="#">Strategi</a></li>
-                            <li>
-                                <hr class="dropdown-divider" />
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Info lainnya</a>
-                            </li>
+                            <li><a class="dropdown-item" href="isu.html">Isu</a></li>
+                            <li><a class="dropdown-item" href="#">Event</a></li>
+                            <li><a class="dropdown-item" href="strategi.html">Strategi</a></li>
                         </ul>
                     </li>
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">Tentang</a>
                     </li>
                 </ul>
 
@@ -84,8 +78,8 @@
     <div class="container py-5 mt-3">
         <!-- Icons -->
         <div class="row">
-            <div class="col-3">
-                <div class="card text-center mb-3 border-0" style="width: 18rem;">
+            <div class="col-md-3 col-12">
+                <div class="card text-center mb-3 border-0">
                     <div class="card-body pt-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
                             class="bi bi-book" viewBox="0 0 16 16">
@@ -93,12 +87,14 @@
                                 d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
                         </svg>
                         <h5 class="card-title mt-3">Isu</h5>
+                
                         <p class="card-text">Cari Topik yang sedang hangat dibicarakan & menjadi perhatian Publik.</p>
                     </div>
+                    
                 </div>
             </div>
-            <div class="col-3">
-                <div class="card text-center mb-3 border-0" style="width: 18rem;">
+            <div class="col-md-3 col-12">
+                <div class="card text-center mb-3 border-0">
                     <div class="card-body pt-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
                             class="bi bi-leaf-fill" viewBox="0 0 16 16">
@@ -110,8 +106,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="card text-center mb-3 border-0" style="width: 18rem;">
+            <div class="col-md-3 col-12">
+                <div class="card text-center mb-3 border-0">
                     <div class="card-body pt-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
                             class="bi bi-bug-fill" viewBox="0 0 16 16">
@@ -125,8 +121,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="card text-center mb-3 border-0" style="width: 18rem;">
+            <div class="col-md-3 col-12">
+                <div class="card text-center mb-3 border-0">
                     <div class="card-body pt-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
                             class="bi bi-grid-1x2-fill" viewBox="0 0 16 16">
@@ -144,7 +140,7 @@
     </div>
 
     <!-- Tentang Kami -->
-    <div class="bg-light py-5">
+    <div class="bg-light py-5" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -202,6 +198,7 @@
 
                 <div class="position-absolute bottom-0 mb-2 start-2">
                     <a href="takshow.html" class="btn btn-success mt-auto">Lihat</a>
+
                 </div>
 
 
@@ -216,6 +213,7 @@
 
                 <div class="position-absolute bottom-0 mb-2 start-2">
                     <a href="festival.html" class="btn btn-success mt-auto">Lihat</a>
+
                 </div>
             </div>
 
@@ -226,53 +224,26 @@
     <!-- End Event -->
 
     <!-- Stategi Perkebunan -->
-    <div class="bg-light py-5">
-        <div class="container py-5">
+        <div class="bg-light py-5" id="about">
+        <div class="container">
             <h1 class="mb-5 text-center">Startegi Perkebunan</h1>
             <div class="row">
-                <div class="col-3">
-                    <div class="card">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+                <div class="col-md-8">
+                    <h2>#1 Pengembangan komoditas bernilai tinggi: intensifikasi bawang merah (program UPLAND & dukungan
+                        Kementan)</h2>
+                     penyuluhan teknologi tanam, penyediaan benih unggul, penggunaan pola tanam dan pengairan yang lebih
+                    baik, serta pendampingan pemasaran. Tujuannya menaikkan produktivitas dan kualitas bawang merah
+                    lokal supaya jadi komoditas unggulan. Program UPLAND & pemerintah daerah mendorong sentra bawang
+                    merah di wilayah Sumbawa untuk swasembada dan peningkatan ekspor lokal.
+
+                    <a href="strategi.html" class="btn btn-success mt-4">Info Details</a>
+
+
+                    
                 </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+                
+                <div class="col-md-4">
+                    
                 </div>
             </div>
         </div>
@@ -283,103 +254,91 @@
     <div class="bg-success text-white py-5">
         <div class="container py-5">
             <h1 class="text-center mb-5">Produk</h1>
-            <div class="row">
-                <div class="col-4">
-                    <div class="card mb-3">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="row g-4">
+                <div class="col-sm-6 col-md-4">
+                    <div class="card product-card h-100">
+                        <img src="./img/produk 3.jpg" class="card-img-top" alt="Pupuk Organik">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Pupuk Organik</h5>
+                            <p class="card-text text-muted">Meningkatkan kesehatan tanah dan hasil panen secara alami.
+                            </p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <strong class="text-success">Rp 45.000</strong>
+                                <a href="detail-produk.html" class="btn btn-sm btn-primary">Lihat</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card mb-3">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card product-card h-100">
+                        <img src="./img/produk 2.jpg" class="card-img-top" alt="Alat Penyemprot">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Alat Penyemprot</h5>
+                            <p class="card-text text-muted">Ringan dan efisien untuk aplikasi pestisida yang merata.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <strong class="text-success">Rp 120.000</strong>
+                                <a href="detail-produk.html" class="btn btn-sm btn-primary">Lihat</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card mb-3">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card product-card h-100">
+                        <img src="./img/hama 2.jpg" class="card-img-top" alt="Bibit Sayuran">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Bibit Sayuran</h5>
+                            <p class="card-text text-muted">Bibit unggul, produktivitas tinggi dan tahan penyakit.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <strong class="text-success">Rp 25.000</strong>
+                                <a href="detail-produk.html" class="btn btn-sm btn-primary">Lihat</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card mb-3">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <!-- additional product cards (copy/paste & edit) -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="card product-card h-100">
+                        <img src="./img/produk 2.jpg" class="card-img-top" alt="Mulsa Organik">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Mulsa Organik</h5>
+                            <p class="card-text text-muted">Melindungi tanah dan mengurangi evaporasi air.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <strong class="text-success">Rp 35.000</strong>
+                                <a href="detail-produk.html" class="btn btn-sm btn-primary">Lihat</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card mb-3">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card product-card h-100">
+                        <img src="./img/hama 2.jpg" class="card-img-top" alt="Insektisida Nabati">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Insektisida Nabati</h5>
+                            <p class="card-text text-muted">Aman untuk tanaman dan lingkungan, efektif mengendalikan
+                                hama.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <strong class="text-success">Rp 55.000</strong>
+                                <a href="detail-produk.html" class="btn btn-sm btn-primary">Lihat</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card mb-3">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card mb-3">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card mb-3">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card mb-3">
-                        <img src="img/produk 2.jpg" class="card-img-top" alt="asdasd">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card product-card h-100">
+                        <img src="./img/produk 3.jpg" class="card-img-top" alt="Alat Tanam">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Alat Tanam</h5>
+                            <p class="card-text text-muted">Kelengkapan untuk rencana tanam yang lebih rapi dan cepat.
+                            </p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <strong class="text-success">Rp 85.000</strong>
+                                <a href="detail-produk.html" class="btn btn-sm btn-primary">Lihat</a>
+                            </div>
                         </div>
                     </div>
                 </div>
